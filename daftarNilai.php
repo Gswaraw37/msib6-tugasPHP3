@@ -109,8 +109,8 @@ $footer = [
                 foreach ($footer as $data => $hasil) {
             ?>
             <tr>
-                <td colspan="3" align="right"><?= $data ?></td>
-                <td colspan="5" align="center"><?= $hasil ?></td>
+                <td colspan="3" align="right"><b><?= $data ?></b></td>
+                <td colspan="5" align="center"><b><?= $hasil ?></b></td>
             </tr>
             <?php
                 }
